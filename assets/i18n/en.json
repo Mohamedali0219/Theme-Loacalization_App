@@ -1,0 +1,21 @@
+{
+    "common": {
+      "system": "System",
+      "light": "Light",
+      "dark": "Dark",
+      "language": "Language",
+      "follow_system": "Follow system",
+      "settings": "Settings",
+      "theme": "Theme",
+      "submit": "Submit",
+      "cancel": "Cancel"
+    },
+    "home": {
+      "title": "Clean themes & i18n",
+      "welcome": "Hello! 👋",
+      "body": "This starter offers quick theme switching and localization without external state management.",
+      "demo_title": "Demo form",
+      "name_label": "Your name"
+    }
+  }
+  

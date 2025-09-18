@@ -1,0 +1,21 @@
+{
+    "common": {
+      "system": "Système",
+      "light": "Clair",
+      "dark": "Sombre",
+      "language": "Langue",
+      "follow_system": "Suivre le système",
+      "settings": "Paramètres",
+      "theme": "Thème",
+      "submit": "Valider",
+      "cancel": "Annuler"
+    },
+    "home": {
+      "title": "Thèmes & i18n propres",
+      "welcome": "Salut ! 👋",
+      "body": "Ce starter offre un changement de thème rapide et une localisation sans gestion d'état externe.",
+      "demo_title": "Formulaire démo",
+      "name_label": "Votre nom"
+    }
+  }
+  
