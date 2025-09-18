@@ -1,16 +1,15 @@
-# app_theme_localization
+# Flutter Starter — Themes + i18n + Persistence
 
-A new Flutter project.
+Lightweight Flutter starter with **Light/Dark/System themes**, **JSON-based localization**, and **persistent settings** (theme & language) via `SharedPreferences`.  
+No external state-management—just a tiny `AppScope` + controllers.
 
-## Getting Started
+## Features
+- 🎨 **Themes**: Light / Dark / System (Material 3, `ColorScheme.fromSeed`)
+- 🌍 **Localization**: External JSON (`assets/i18n/en|ar|fr.json`), supports deep nesting
+- 💾 **Persistence**: Remembers theme & language across restarts
+- ⚡ **Performance**: Flattened i18n map (O(1) lookups), single `MaterialApp` rebuild
 
-This project is a starting point for a Flutter application.
+## Quick Start
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter pub get
+flutter run
